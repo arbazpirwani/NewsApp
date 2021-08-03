@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/newsList"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+    8:11 PM	Executing tasks: [:app:assembleDebug] in project C:\Users\HP\AndroidStudioProjects\NewsApp
+
+    8:11 PM	bad sub-command
+    com.android.ddmlib.CommandFailedException: bad sub-command
+    at com.android.ddmlib.EmulatorConsole.processOutput(EmulatorConsole.java:423)
+    at com.android.ddmlib.EmulatorConsole.getOutput(EmulatorConsole.java:410)
+    at com.android.ddmlib.EmulatorConsole.getAvdPath(EmulatorConsole.java:401)
+    at com.android.ddmlib.internal.DeviceMonitor.setProperties(DeviceMonitor.java:292)
+    at com.android.ddmlib.internal.DeviceMonitor.updateDevices(DeviceMonitor.java:256)
+    at com.android.ddmlib.internal.DeviceMonitor.access$400(DeviceMonitor.java:56)
+    at com.android.ddmlib.internal.DeviceMonitor$DeviceListUpdateListener.deviceListUpdate(DeviceMonitor.java:322)
+    at com.android.ddmlib.internal.DeviceListMonitorTask.processIncomingDeviceData(DeviceListMonitorTask.java:195)
+    at com.android.ddmlib.internal.DeviceListMonitorTask.run(DeviceListMonitorTask.java:131)
+    at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+    8:12 PM	Gradle build failed in 1 m 8 s 468 ms
+
+    8:13 PM	Executing tasks: [:app:assembleDebug] in project C:\Users\HP\AndroidStudioProjects\NewsApp
+
+    8:13 PM	Gradle build finished in 12 s 499 ms
+
+    8:13 PM	Error
+    Changes were not applied.
+    Adding or renaming a resource requires an application restart.
+    Reinstall and restart app
+
+    8:13 PM	Session 'app': Changes were not applied.
+    Adding or renaming a resource requires an application restart.
+    Reinstall and restart app
+
+    8:13 PM	Executing tasks: [:app:assembleDebug] in project C:\Users\HP\AndroidStudioProjects\NewsApp
+
+    8:14 PM	Gradle build finished in 2 s 844 ms
+
+    8:14 PM	Launch succeeded
+
+    8:32 PM	Failed to start monitoring emulator-5554
+
+    9:20 PM	bad sub-command
+    com.android.ddmlib.CommandFailedException: bad sub-command
+    at com.android.ddmlib.EmulatorConsole.processOutput(EmulatorConsole.java:423)
+    at com.android.ddmlib.EmulatorConsole.getOutput(EmulatorConsole.java:410)
+    at com.android.ddmlib.EmulatorConsole.getAvdPath(EmulatorConsole.java:401)
+    at com.android.ddmlib.internal.DeviceMonitor.setProperties(DeviceMonitor.java:292)
+    at com.android.ddmlib.internal.DeviceMonitor.updateDevices(DeviceMonitor.java:256)
+    at com.android.ddmlib.internal.DeviceMonitor.access$400(DeviceMonitor.java:56)
+    at com.android.ddmlib.internal.DeviceMonitor$DeviceListUpdateListener.deviceListUpdate(DeviceMonitor.java:322)
+    at com.android.ddmlib.internal.DeviceListMonitorTask.processIncomingDeviceData(DeviceListMonitorTask.java:195)
+    at com.android.ddmlib.internal.DeviceListMonitorTask.run(DeviceListMonitorTask.java:131)
+    at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+    9:20 PM	Failed to start monitoring emulator-5554
+
+    ListMonitorTask.processIncomingDeviceData(DeviceListMonitorTask.java:195)
+    at com.android.ddmlib.internal.DeviceListMonitorTask.run(DeviceListMonitorTask.java:131)
+    at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+    9:20 PM	Failed to start monitoring emulator-5554
